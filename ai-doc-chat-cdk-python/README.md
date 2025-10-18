@@ -1,7 +1,7 @@
 
 # AI-Powered Document Summarizer + Chat (AWS, CDK Python)
 
-A serverless, portfolio-ready **RAG** (retrieval-augmented generation) skeleton that lets users upload documents, then **chat with them** using **Amazon Bedrock** (Claude/Llama) and a vector store (placeholder). It includes:
+A serverless,**RAG** (retrieval-augmented generation) skeleton that lets users upload documents, then **chat with them** using **Amazon Bedrock** (Claude/Llama) and a vector store (placeholder). It includes:
 - S3 for raw/processed docs
 - DynamoDB for documents & chunks metadata
 - Step Functions pipeline: **extract → chunk → embed → upsert** (vector store placeholder)
